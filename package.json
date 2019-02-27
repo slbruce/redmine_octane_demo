@@ -1,0 +1,20 @@
+{
+  "name": "redmine-octane-demo",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "read-config": "2.0.0",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.5",
+    "@microfocus/hpe-alm-octane-js-rest-sdk": "12.60.4"
+  },
+  "license": "Apache 2.0",
+  "author": {
+    "name": "Spencer Bruce",
+    "email": "spencer.bruce@microfocus.com"
+  },
+  "scripts": {
+    "setup": "node scripts/setupconfig.js",
+    "start": "node app.js"
+  }
+}

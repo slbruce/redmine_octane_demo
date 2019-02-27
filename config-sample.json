@@ -1,0 +1,24 @@
+{
+  "redmine": {
+    "url": "http://redmine.url",
+    "proxy": "Url of proxy if needed - otherwise delete this line",
+    "auth": {
+      "user": "redmine API KEY",
+      "password": "12345678"
+    }
+  },
+  "octane": {
+    "server": {
+      "protocol": "http",
+      "host": "http://almoctane.com",
+      "port": 80,
+      "shared_space_id": "1001",
+      "workspace_id": "3001",
+      "proxy": "Url of proxy if needed - otherwise delete this line"
+    },
+    "authorisation": {
+      "client_id": "api_key",
+      "client_secret": "api_secret"
+    }
+  }
+}
